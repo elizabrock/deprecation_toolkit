@@ -31,4 +31,5 @@ module DeprecationToolkit
 end
 
 require "deprecation_toolkit/minitest_hook"
+require "deprecation_toolkit/cucumber_hook"
 require "deprecation_toolkit/warning"

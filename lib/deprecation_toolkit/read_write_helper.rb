@@ -50,8 +50,8 @@ module DeprecationToolkit
 
     def test_location(test)
       test.method(test.name).source_location[0]
-    rescue NameError
-      "unknown"
+    # rescue NameError
+    #   "unknown"
     end
   end
 end
